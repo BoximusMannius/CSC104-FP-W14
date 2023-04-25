@@ -1,0 +1,92 @@
+body {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul.nav {
+    text-align: right;
+}
+
+footer {
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-image: url("cabbageImages/cabbagesBackground.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sidenavL {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("cabbageImages/cabbage_farm.jpg");
+    background-size: cover;
+    background-position: left;
+    overflow-x: hidden;
+}
+
+.sidenavR {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: url("cabbageImages/cabbage_farm.jpg");
+    background-size: cover;
+    background-position: right;
+    overflow-x: hidden;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.centerR {
+    text-align: left;
+    margin-left: 25%;
+}
+
+ul.recipeUL {
+    display: inline-block;
+    text-align: left;
+}
+
+ul.n {
+    font-size: larger;
+}
